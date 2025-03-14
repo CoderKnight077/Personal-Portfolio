@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+  <header>
+    
+    <div class="theme-toggle" id="themeToggle">
+      <img src="moon.png" alt="Toggle Theme" id="themeIcon">
+    </div>
+    <div class="container">
+      <h1>John Doe</h1>
+      <p>Front-End Developer</p>
+       <!-- <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> -->
+    </div>
+    <div class="container">
+      <!-- <h1 class="typing">John Doe</h1> -->
+      <p>Front-End Developer</p>
+      <a href="resume.pdf" download class="btn">Download Resume</a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm a passionate Front-End Developer specializing in building responsive and engaging websites using HTML, CSS, JavaScript, and React.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Responsive E-commerce Website</h3>
+          <p>A fully responsive e-commerce layout built using HTML, CSS, and JavaScript.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This very portfolio you're viewing now. Clean, responsive, and animated.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>To-Do App</h3>
+          <p>A simple and elegant to-do app built with JavaScript and localStorage.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-response"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
